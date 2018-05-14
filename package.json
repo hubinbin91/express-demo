@@ -1,0 +1,21 @@
+{
+  "name": "myexpress",
+  "version": "1.0.0",
+  "description": "first express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "10385",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.3"
+  }
+}
