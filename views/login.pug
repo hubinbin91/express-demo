@@ -1,0 +1,12 @@
+doctype
+html(lang="zh-CN")
+  body
+    form(action="/account/login", method="POST")
+      div
+        label(for="username") 用户名:
+        input(type="text", name="name")
+      div
+        label(for="password") 密码:
+        input(type="password", name="password")
+      div
+        button(type="submit") 登录
